@@ -1,0 +1,30 @@
+Loading snippets dataset...
+Loading text content...
+../data/snippets/
+snippets
+text
+label matrix shape: torch.Size([12340, 8])
+done.
+Loading topic content...
+../data/snippets/
+snippets
+topic
+done.
+Loading entity content...
+../data/snippets/
+snippets
+entity
+done.
+Building graph...
+Num of edges: 1806067
+train, vali, test:  160 1000 11180
+Transfer to be transductive.
+
+
+No. 1 test.
+
+30
+30
+[torch.Size([512, 10]), torch.Size([10]), torch.Size([512]), torch.Size([5569, 512]), torch.Size([5570, 512]), torch.Size([6058, 512]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 10]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 10]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 10]), torch.Size([50])]
+Epoch: 0001 | loss: 2.3926 | loss: 2.2102 Ac:  17.90 fackACC:  0.0 legACC:  0.0 | time: 1.1107s
+                                                                 

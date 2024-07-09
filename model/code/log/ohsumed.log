@@ -1,0 +1,636 @@
+Loading ohsumed dataset...
+Loading text content...
+../data/ohsumed/
+ohsumed
+text
+label matrix shape: torch.Size([7400, 23])
+done.
+Loading topic content...
+../data/ohsumed/
+ohsumed
+topic
+done.
+Loading entity content...
+../data/ohsumed/
+ohsumed
+entity
+done.
+Building graph...
+Num of edges: 3093039
+train, vali, test:  460 1000 5940
+Transfer to be transductive.
+
+
+No. 1 test.
+
+30
+30
+[torch.Size([512, 25]), torch.Size([25]), torch.Size([512]), torch.Size([2471, 512]), torch.Size([2472, 512]), torch.Size([3197, 512]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 25]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 25]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 25]), torch.Size([50])]
+Epoch: 0001 | loss: 3.2874 | loss: 3.1949 Ac:   9.90 fackACC:  0.0 legACC:  0.0 | time: 0.7675s
+                                                                  | loss: 3.1952 Ac:   8.89 fackACC:  0.0 legACC:  0.0 | time: 0.0687s
+Epoch: 0002 | loss: 3.1987 | loss: 3.0766 Ac:  15.90 fackACC:  0.0 legACC:  0.0 | time: 0.1316s
+                                                                  | loss: 3.0772 Ac:  15.88 fackACC:  0.0 legACC:  0.0 | time: 0.0667s
+Epoch: 0003 | loss: 3.0836 | loss: 2.9306 Ac:  16.10 fackACC:  0.0 legACC:  0.0 | time: 0.1228s
+                                                                  | loss: 2.9324 Ac:  16.28 fackACC:  0.0 legACC:  0.0 | time: 0.0666s
+Epoch: 0004 | loss: 2.9216 | loss: 2.8191 Ac:  19.10 fackACC:  0.0 legACC:  0.0 | time: 0.1220s
+                                                                  | loss: 2.8213 Ac:  19.36 fackACC:  0.0 legACC:  0.0 | time: 0.0669s
+Epoch: 0005 | loss: 2.8752 | loss: 2.7847 Ac:  19.10 fackACC:  0.0 legACC:  0.0 | time: 0.1295s
+                                                                  | loss: 2.7854 Ac:  19.49 fackACC:  0.0 legACC:  0.0 | time: 0.0772s
+Epoch: 0006 | loss: 2.8174 | loss: 2.7735 Ac:  20.20 fackACC:  0.0 legACC:  0.0 | time: 0.1283s
+                                                                  | loss: 2.7727 Ac:  21.50 fackACC:  0.0 legACC:  0.0 | time: 0.0703s
+Epoch: 0007 | loss: 2.7651 | loss: 2.7608 Ac:  22.10 fackACC:  0.0 legACC:  0.0 | time: 0.1233s
+                                                                  | loss: 2.7588 Ac:  23.13 fackACC:  0.0 legACC:  0.0 | time: 0.0667s
+Epoch: 0008 | loss: 2.7611 | loss: 2.7449 Ac:  23.70 fackACC:  0.0 legACC:  0.0 | time: 0.1217s
+                                                                  | loss: 2.7421 Ac:  24.23 fackACC:  0.0 legACC:  0.0 | time: 0.0668s
+Epoch: 0009 | loss: 2.7336 | loss: 2.7164 Ac:  24.90 fackACC:  0.0 legACC:  0.0 | time: 0.1217s
+                                                                  | loss: 2.7116 Ac:  25.67 fackACC:  0.0 legACC:  0.0 | time: 0.0669s
+Epoch: 0010 | loss: 2.6502 | loss: 2.6846 Ac:  25.90 fackACC:  0.0 legACC:  0.0 | time: 0.1231s
+                                                                  | loss: 2.6774 Ac:  27.04 fackACC:  0.0 legACC:  0.0 | time: 0.0671s
+Epoch: 0011 | loss: 2.5100 | loss: 2.6590 Ac:  26.40 fackACC:  0.0 legACC:  0.0 | time: 0.1248s
+                                                                  | loss: 2.6504 Ac:  27.69 fackACC:  0.0 legACC:  0.0 | time: 0.0676s
+Epoch: 0012 | loss: 2.4711 | loss: 2.6311 Ac:  27.10 fackACC:100.0 legACC:  0.0 | time: 0.1227s
+                                                                  | loss: 2.6214 Ac:  28.11 fackACC:  0.0 legACC:  0.0 | time: 0.0670s
+Epoch: 0013 | loss: 2.3452 | loss: 2.6017 Ac:  27.30 fackACC:100.0 legACC:  0.0 | time: 0.1225s
+                                                                  | loss: 2.5908 Ac:  28.64 fackACC: 75.0 legACC:  0.0 | time: 0.0675s
+Epoch: 0014 | loss: 2.2240 | loss: 2.5720 Ac:  28.10 fackACC: 85.7 legACC:  0.0 | time: 0.1214s
+                                                                  | loss: 2.5597 Ac:  29.16 fackACC: 75.0 legACC:  0.0 | time: 0.0686s
+Epoch: 0015 | loss: 2.1518 | loss: 2.5426 Ac:  28.80 fackACC: 53.3 legACC:  0.0 | time: 0.1233s
+                                                                  | loss: 2.5287 Ac:  30.24 fackACC: 74.7 legACC:  0.0 | time: 0.0671s
+Epoch: 0016 | loss: 1.9962 | loss: 2.5142 Ac:  29.30 fackACC: 57.1 legACC:  0.0 | time: 0.1224s
+                                                                  | loss: 2.4988 Ac:  31.46 fackACC: 66.4 legACC:  0.0 | time: 0.0673s
+Epoch: 0017 | loss: 1.9116 | loss: 2.4872 Ac:  30.40 fackACC: 46.9 legACC:  0.0 | time: 0.1216s
+                                                                  | loss: 2.4702 Ac:  32.59 fackACC: 61.1 legACC:  0.0 | time: 0.0671s
+Epoch: 0018 | loss: 1.8116 | loss: 2.4615 Ac:  31.90 fackACC: 44.2 legACC:  0.0 | time: 0.1221s
+                                                                  | loss: 2.4430 Ac:  33.80 fackACC: 53.6 legACC:  0.0 | time: 0.0672s
+Epoch: 0019 | loss: 1.7021 | loss: 2.4373 Ac:  33.70 fackACC: 46.8 legACC:  0.0 | time: 0.1232s
+                                                                  | loss: 2.4173 Ac:  34.70 fackACC: 51.6 legACC:  0.0 | time: 0.0676s
+Epoch: 0020 | loss: 1.6268 | loss: 2.4139 Ac:  33.80 fackACC: 40.4 legACC:  0.0 | time: 0.1230s
+                                                                  | loss: 2.3926 Ac:  35.37 fackACC: 49.7 legACC:  0.0 | time: 0.0671s
+Epoch: 0021 | loss: 1.4597 | loss: 2.3912 Ac:  34.30 fackACC: 39.3 legACC:  0.0 | time: 0.1237s
+                                                                  | loss: 2.3684 Ac:  36.26 fackACC: 50.3 legACC:  0.0 | time: 0.0724s
+Epoch: 0022 | loss: 1.4570 | loss: 2.3695 Ac:  34.90 fackACC: 40.7 legACC:  0.0 | time: 0.1223s
+                                                                  | loss: 2.3454 Ac:  36.73 fackACC: 50.8 legACC:  0.0 | time: 0.0671s
+Epoch: 0023 | loss: 1.3257 | loss: 2.3496 Ac:  35.30 fackACC: 44.2 legACC:  0.0 | time: 0.1228s
+                                                                  | loss: 2.3239 Ac:  37.14 fackACC: 51.8 legACC:  0.0 | time: 0.0671s
+Epoch: 0024 | loss: 1.2419 | loss: 2.3316 Ac:  35.60 fackACC: 43.1 legACC:  0.0 | time: 0.1228s
+                                                                  | loss: 2.3045 Ac:  37.37 fackACC: 51.2 legACC:  0.0 | time: 0.0673s
+Epoch: 0025 | loss: 1.1494 | loss: 2.3155 Ac:  36.10 fackACC: 44.0 legACC:  0.0 | time: 0.1228s
+                                                                  | loss: 2.2871 Ac:  37.68 fackACC: 51.9 legACC:  0.0 | time: 0.0675s
+Epoch: 0026 | loss: 1.0794 | loss: 2.3020 Ac:  36.40 fackACC: 45.8 legACC:  0.0 | time: 0.1225s
+                                                                  | loss: 2.2725 Ac:  38.01 fackACC: 52.5 legACC:  0.0 | time: 0.0673s
+Epoch: 0027 | loss: 1.0286 | loss: 2.2905 Ac:  36.70 fackACC: 44.9 legACC:  0.0 | time: 0.1297s
+                                                                  | loss: 2.2601 Ac:  38.20 fackACC: 53.5 legACC:  0.0 | time: 0.0682s
+Epoch: 0028 | loss: 0.9429 | loss: 2.2806 Ac:  36.70 fackACC: 45.8 legACC:  0.0 | time: 0.1225s
+                                                                  | loss: 2.2494 Ac:  38.60 fackACC: 53.8 legACC:  0.0 | time: 0.0674s
+Epoch: 0029 | loss: 0.8804 | loss: 2.2723 Ac:  37.00 fackACC: 45.8 legACC:  0.0 | time: 0.1173s
+                                                                  | loss: 2.2403 Ac:  38.99 fackACC: 53.8 legACC:  0.0 | time: 0.0672s
+Epoch: 0030 | loss: 0.8311 | loss: 2.2647 Ac:  37.70 fackACC: 45.8 legACC:  0.0 | time: 0.1217s
+                                                                  | loss: 2.2317 Ac:  39.33 fackACC: 52.4 legACC:  0.0 | time: 0.0673s
+Epoch: 0031 | loss: 0.7553 | loss: 2.2574 Ac:  37.90 fackACC: 43.1 legACC:  0.0 | time: 0.1225s
+                                                                  | loss: 2.2232 Ac:  39.56 fackACC: 49.5 legACC:  0.0 | time: 0.0671s
+Epoch: 0032 | loss: 0.6838 | loss: 2.2504 Ac:  38.20 fackACC: 41.1 legACC:  0.0 | time: 0.1235s
+                                                                  | loss: 2.2149 Ac:  39.73 fackACC: 47.9 legACC:  0.0 | time: 0.0676s
+Epoch: 0033 | loss: 0.6483 | loss: 2.2445 Ac:  39.40 fackACC: 42.2 legACC:  0.0 | time: 0.1217s
+                                                                  | loss: 2.2074 Ac:  40.13 fackACC: 47.4 legACC:100.0 | time: 0.0670s
+Epoch: 0034 | loss: 0.5949 | loss: 2.2394 Ac:  39.30 fackACC: 39.1 legACC:  0.0 | time: 0.1305s
+                                                                  | loss: 2.2005 Ac:  40.45 fackACC: 46.5 legACC:100.0 | time: 0.0691s
+Epoch: 0035 | loss: 0.5456 | loss: 2.2355 Ac:  39.70 fackACC: 36.8 legACC:  0.0 | time: 0.1185s
+                                                                  | loss: 2.1949 Ac:  40.66 fackACC: 44.2 legACC:100.0 | time: 0.0674s
+Epoch: 0036 | loss: 0.4996 | loss: 2.2333 Ac:  40.00 fackACC: 36.4 legACC:  0.0 | time: 0.1227s
+                                                                  | loss: 2.1911 Ac:  40.84 fackACC: 43.1 legACC:100.0 | time: 0.0670s
+Epoch: 0037 | loss: 0.4587 | loss: 2.2321 Ac:  40.40 fackACC: 33.8 legACC:  0.0 | time: 0.1228s
+                                                                  | loss: 2.1882 Ac:  40.89 fackACC: 41.9 legACC:100.0 | time: 0.0677s
+Epoch: 0038 | loss: 0.4246 | loss: 2.2325 Ac:  40.50 fackACC: 33.3 legACC:  0.0 | time: 0.1305s
+                                                                  | loss: 2.1870 Ac:  41.06 fackACC: 41.8 legACC:100.0 | time: 0.0673s
+Epoch: 0039 | loss: 0.4032 | loss: 2.2345 Ac:  40.60 fackACC: 34.6 legACC:  0.0 | time: 0.1218s
+                                                                  | loss: 2.1874 Ac:  41.14 fackACC: 41.8 legACC:100.0 | time: 0.0673s
+Epoch: 0040 | loss: 0.3740 | loss: 2.2376 Ac:  40.50 fackACC: 33.3 legACC:100.0 | time: 0.1226s
+                                                                  | loss: 2.1887 Ac:  41.36 fackACC: 42.3 legACC:100.0 | time: 0.0670s
+Epoch: 0041 | loss: 0.3475 | loss: 2.2424 Ac:  40.50 fackACC: 38.5 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 2.1919 Ac:  41.38 fackACC: 44.9 legACC:100.0 | time: 0.0671s
+Epoch: 0042 | loss: 0.3113 | loss: 2.2481 Ac:  40.40 fackACC: 41.0 legACC:100.0 | time: 0.1189s
+                                                                  | loss: 2.1957 Ac:  41.26 fackACC: 45.3 legACC:100.0 | time: 0.0674s
+Epoch: 0043 | loss: 0.3103 | loss: 2.2544 Ac:  40.40 fackACC: 40.0 legACC:100.0 | time: 0.1181s
+                                                                  | loss: 2.1999 Ac:  41.20 fackACC: 45.8 legACC:100.0 | time: 0.0672s
+Epoch: 0044 | loss: 0.2743 | loss: 2.2622 Ac:  40.30 fackACC: 39.0 legACC:100.0 | time: 0.1177s
+                                                                  | loss: 2.2054 Ac:  41.13 fackACC: 46.5 legACC: 75.0 | time: 0.0671s
+Epoch: 0045 | loss: 0.2702 | loss: 2.2703 Ac:  40.50 fackACC: 37.9 legACC:100.0 | time: 0.1177s
+                                                                  | loss: 2.2109 Ac:  41.20 fackACC: 46.6 legACC: 75.0 | time: 0.0674s
+Epoch: 0046 | loss: 0.2317 | loss: 2.2787 Ac:  41.00 fackACC: 37.3 legACC:100.0 | time: 0.1176s
+                                                                  | loss: 2.2170 Ac:  41.16 fackACC: 46.8 legACC: 75.0 | time: 0.0674s
+Epoch: 0047 | loss: 0.2131 | loss: 2.2877 Ac:  40.80 fackACC: 37.9 legACC:100.0 | time: 0.1396s
+                                                                  | loss: 2.2234 Ac:  41.28 fackACC: 47.1 legACC: 75.0 | time: 0.0695s
+Epoch: 0048 | loss: 0.2048 | loss: 2.2968 Ac:  41.10 fackACC: 36.1 legACC:100.0 | time: 0.1257s
+                                                                  | loss: 2.2298 Ac:  41.36 fackACC: 44.6 legACC: 60.0 | time: 0.1031s
+Epoch: 0049 | loss: 0.2018 | loss: 2.3048 Ac:  41.20 fackACC: 35.4 legACC:100.0 | time: 0.1322s
+                                                                  | loss: 2.2358 Ac:  41.38 fackACC: 43.6 legACC: 66.7 | time: 0.0757s
+Epoch: 0050 | loss: 0.1617 | loss: 2.3118 Ac:  41.00 fackACC: 34.3 legACC:100.0 | time: 0.1257s
+                                                                  | loss: 2.2411 Ac:  41.35 fackACC: 43.1 legACC: 66.7 | time: 0.0676s
+Epoch: 0051 | loss: 0.1505 | loss: 2.3193 Ac:  40.70 fackACC: 33.3 legACC:100.0 | time: 0.1182s
+                                                                  | loss: 2.2470 Ac:  41.48 fackACC: 43.0 legACC: 66.7 | time: 0.0675s
+Epoch: 0052 | loss: 0.1687 | loss: 2.3267 Ac:  40.80 fackACC: 32.9 legACC:100.0 | time: 0.1208s
+                                                                  | loss: 2.2529 Ac:  41.45 fackACC: 42.2 legACC: 66.7 | time: 0.0672s
+Epoch: 0053 | loss: 0.1406 | loss: 2.3349 Ac:  40.80 fackACC: 32.4 legACC:100.0 | time: 0.1180s
+                                                                  | loss: 2.2598 Ac:  41.45 fackACC: 41.0 legACC: 66.7 | time: 0.0863s
+Epoch: 0054 | loss: 0.1378 | loss: 2.3434 Ac:  40.70 fackACC: 32.4 legACC:100.0 | time: 0.1383s
+                                                                  | loss: 2.2670 Ac:  41.53 fackACC: 40.5 legACC: 66.7 | time: 0.0747s
+Epoch: 0055 | loss: 0.1273 | loss: 2.3520 Ac:  40.70 fackACC: 29.9 legACC:100.0 | time: 0.1196s
+                                                                  | loss: 2.2741 Ac:  41.48 fackACC: 40.0 legACC: 66.7 | time: 0.0685s
+Epoch: 0056 | loss: 0.1221 | loss: 2.3613 Ac:  40.70 fackACC: 28.4 legACC:100.0 | time: 0.1227s
+                                                                  | loss: 2.2822 Ac:  41.38 fackACC: 39.2 legACC: 66.7 | time: 0.0839s
+Epoch: 0057 | loss: 0.1120 | loss: 2.3714 Ac:  40.80 fackACC: 28.0 legACC:100.0 | time: 0.1282s
+                                                                  | loss: 2.2908 Ac:  41.38 fackACC: 38.5 legACC: 66.7 | time: 0.0673s
+Epoch: 0058 | loss: 0.1084 | loss: 2.3817 Ac:  40.70 fackACC: 27.7 legACC:100.0 | time: 0.1206s
+                                                                  | loss: 2.2997 Ac:  41.40 fackACC: 38.4 legACC: 66.7 | time: 0.0673s
+Epoch: 0059 | loss: 0.1048 | loss: 2.3918 Ac:  40.40 fackACC: 26.4 legACC:100.0 | time: 0.1205s
+                                                                  | loss: 2.3083 Ac:  41.28 fackACC: 38.0 legACC: 66.7 | time: 0.0670s
+Epoch: 0060 | loss: 0.1050 | loss: 2.4017 Ac:  40.40 fackACC: 26.4 legACC:100.0 | time: 0.1206s
+                                                                  | loss: 2.3167 Ac:  41.28 fackACC: 37.9 legACC: 66.7 | time: 0.0672s
+Epoch: 0061 | loss: 0.0929 | loss: 2.4117 Ac:  40.10 fackACC: 25.6 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 2.3252 Ac:  41.20 fackACC: 37.5 legACC: 66.7 | time: 0.0671s
+Epoch: 0062 | loss: 0.0935 | loss: 2.4216 Ac:  40.20 fackACC: 26.1 legACC:100.0 | time: 0.1189s
+                                                                  | loss: 2.3337 Ac:  41.06 fackACC: 37.3 legACC: 80.0 | time: 0.0672s
+Epoch: 0063 | loss: 0.0981 | loss: 2.4319 Ac:  40.30 fackACC: 26.1 legACC:100.0 | time: 0.1209s
+                                                                  | loss: 2.3426 Ac:  40.96 fackACC: 37.1 legACC: 80.0 | time: 0.0671s
+Epoch: 0064 | loss: 0.0731 | loss: 2.4422 Ac:  40.20 fackACC: 26.1 legACC:100.0 | time: 0.1213s
+                                                                  | loss: 2.3515 Ac:  40.96 fackACC: 36.8 legACC: 80.0 | time: 0.0671s
+Epoch: 0065 | loss: 0.0842 | loss: 2.4516 Ac:  40.10 fackACC: 26.1 legACC:100.0 | time: 0.1209s
+                                                                  | loss: 2.3595 Ac:  40.96 fackACC: 36.4 legACC: 80.0 | time: 0.0673s
+Epoch: 0066 | loss: 0.0726 | loss: 2.4602 Ac:  40.00 fackACC: 26.9 legACC:100.0 | time: 0.1180s
+                                                                  | loss: 2.3666 Ac:  40.96 fackACC: 36.1 legACC: 80.0 | time: 0.0672s
+Epoch: 0067 | loss: 0.0806 | loss: 2.4686 Ac:  40.20 fackACC: 26.9 legACC:100.0 | time: 0.1200s
+                                                                  | loss: 2.3736 Ac:  41.13 fackACC: 36.2 legACC: 80.0 | time: 0.0671s
+Epoch: 0068 | loss: 0.0595 | loss: 2.4767 Ac:  40.20 fackACC: 26.6 legACC:100.0 | time: 0.1196s
+                                                                  | loss: 2.3803 Ac:  41.16 fackACC: 36.3 legACC: 80.0 | time: 0.0668s
+Epoch: 0069 | loss: 0.0660 | loss: 2.4843 Ac:  40.20 fackACC: 25.3 legACC:100.0 | time: 0.1180s
+                                                                  | loss: 2.3866 Ac:  41.18 fackACC: 36.0 legACC: 80.0 | time: 0.0669s
+Epoch: 0070 | loss: 0.0656 | loss: 2.4910 Ac:  40.20 fackACC: 25.0 legACC:100.0 | time: 0.1181s
+                                                                  | loss: 2.3921 Ac:  41.20 fackACC: 35.6 legACC: 80.0 | time: 0.0670s
+Epoch: 0071 | loss: 0.0566 | loss: 2.4978 Ac:  40.20 fackACC: 24.8 legACC:100.0 | time: 0.1186s
+                                                                  | loss: 2.3977 Ac:  41.06 fackACC: 35.3 legACC: 80.0 | time: 0.0725s
+Epoch: 0072 | loss: 0.0642 | loss: 2.5055 Ac:  40.20 fackACC: 24.5 legACC:100.0 | time: 0.1196s
+                                                                  | loss: 2.4043 Ac:  41.08 fackACC: 35.4 legACC: 80.0 | time: 0.0676s
+Epoch: 0073 | loss: 0.0523 | loss: 2.5131 Ac:  40.20 fackACC: 24.3 legACC:100.0 | time: 0.1184s
+                                                                  | loss: 2.4111 Ac:  41.08 fackACC: 35.3 legACC: 80.0 | time: 0.0681s
+Epoch: 0074 | loss: 0.0536 | loss: 2.5206 Ac:  40.20 fackACC: 24.0 legACC:100.0 | time: 0.1186s
+                                                                  | loss: 2.4180 Ac:  40.96 fackACC: 34.9 legACC: 80.0 | time: 0.0671s
+Epoch: 0075 | loss: 0.0557 | loss: 2.5276 Ac:  40.10 fackACC: 24.0 legACC:100.0 | time: 0.1184s
+                                                                  | loss: 2.4243 Ac:  41.03 fackACC: 34.8 legACC: 80.0 | time: 0.0670s
+Epoch: 0076 | loss: 0.0589 | loss: 2.5342 Ac:  40.00 fackACC: 24.5 legACC:100.0 | time: 0.1181s
+                                                                  | loss: 2.4303 Ac:  41.09 fackACC: 34.3 legACC: 66.7 | time: 0.0669s
+Epoch: 0077 | loss: 0.0541 | loss: 2.5413 Ac:  40.00 fackACC: 24.8 legACC:100.0 | time: 0.1209s
+                                                                  | loss: 2.4364 Ac:  41.20 fackACC: 33.4 legACC: 66.7 | time: 0.0670s
+Epoch: 0078 | loss: 0.0491 | loss: 2.5482 Ac:  39.50 fackACC: 23.5 legACC:100.0 | time: 0.1189s
+                                                                  | loss: 2.4425 Ac:  41.23 fackACC: 33.0 legACC: 66.7 | time: 0.0668s
+Epoch: 0079 | loss: 0.0467 | loss: 2.5554 Ac:  39.60 fackACC: 23.3 legACC:100.0 | time: 0.1204s
+                                                                  | loss: 2.4489 Ac:  41.14 fackACC: 32.6 legACC: 66.7 | time: 0.0673s
+Epoch: 0080 | loss: 0.0415 | loss: 2.5631 Ac:  39.70 fackACC: 23.3 legACC:100.0 | time: 0.1181s
+                                                                  | loss: 2.4556 Ac:  41.14 fackACC: 32.1 legACC: 66.7 | time: 0.0670s
+Epoch: 0081 | loss: 0.0562 | loss: 2.5697 Ac:  39.80 fackACC: 23.9 legACC:100.0 | time: 0.1178s
+                                                                  | loss: 2.4616 Ac:  41.16 fackACC: 32.0 legACC: 66.7 | time: 0.0669s
+Epoch: 0082 | loss: 0.0451 | loss: 2.5771 Ac:  39.50 fackACC: 23.7 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 2.4681 Ac:  41.14 fackACC: 32.0 legACC: 66.7 | time: 0.0670s
+Epoch: 0083 | loss: 0.0465 | loss: 2.5833 Ac:  39.50 fackACC: 23.7 legACC:100.0 | time: 0.1207s
+                                                                  | loss: 2.4738 Ac:  41.01 fackACC: 32.0 legACC: 57.1 | time: 0.0669s
+Epoch: 0084 | loss: 0.0449 | loss: 2.5896 Ac:  39.40 fackACC: 23.3 legACC:100.0 | time: 0.1205s
+                                                                  | loss: 2.4795 Ac:  40.94 fackACC: 32.0 legACC: 57.1 | time: 0.0670s
+Epoch: 0085 | loss: 0.0468 | loss: 2.5955 Ac:  39.10 fackACC: 23.3 legACC:100.0 | time: 0.1192s
+                                                                  | loss: 2.4847 Ac:  41.01 fackACC: 32.2 legACC: 57.1 | time: 0.0672s
+Epoch: 0086 | loss: 0.0355 | loss: 2.6026 Ac:  39.00 fackACC: 23.3 legACC:100.0 | time: 0.1204s
+                                                                  | loss: 2.4911 Ac:  40.98 fackACC: 32.1 legACC: 57.1 | time: 0.0670s
+Epoch: 0087 | loss: 0.0402 | loss: 2.6098 Ac:  39.00 fackACC: 23.3 legACC:100.0 | time: 0.1210s
+                                                                  | loss: 2.4976 Ac:  40.99 fackACC: 32.0 legACC: 57.1 | time: 0.0670s
+Epoch: 0088 | loss: 0.0427 | loss: 2.6166 Ac:  39.00 fackACC: 23.5 legACC:100.0 | time: 0.1188s
+                                                                  | loss: 2.5038 Ac:  40.98 fackACC: 32.0 legACC: 57.1 | time: 0.0672s
+Epoch: 0089 | loss: 0.0413 | loss: 2.6241 Ac:  39.00 fackACC: 23.3 legACC:100.0 | time: 0.1181s
+                                                                  | loss: 2.5104 Ac:  40.98 fackACC: 31.9 legACC: 57.1 | time: 0.0671s
+Epoch: 0090 | loss: 0.0357 | loss: 2.6320 Ac:  39.20 fackACC: 23.7 legACC:100.0 | time: 0.1203s
+                                                                  | loss: 2.5175 Ac:  40.93 fackACC: 31.7 legACC: 57.1 | time: 0.0670s
+Epoch: 0091 | loss: 0.0481 | loss: 2.6393 Ac:  39.30 fackACC: 23.7 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 2.5240 Ac:  40.94 fackACC: 31.8 legACC: 57.1 | time: 0.0671s
+Epoch: 0092 | loss: 0.0375 | loss: 2.6459 Ac:  39.10 fackACC: 23.5 legACC:100.0 | time: 0.1178s
+                                                                  | loss: 2.5300 Ac:  40.94 fackACC: 31.7 legACC: 50.0 | time: 0.0667s
+Epoch: 0093 | loss: 0.0387 | loss: 2.6516 Ac:  39.00 fackACC: 23.5 legACC:100.0 | time: 0.1176s
+                                                                  | loss: 2.5350 Ac:  40.94 fackACC: 31.4 legACC: 50.0 | time: 0.0674s
+Epoch: 0094 | loss: 0.0322 | loss: 2.6578 Ac:  38.90 fackACC: 23.5 legACC:100.0 | time: 0.1182s
+                                                                  | loss: 2.5407 Ac:  40.94 fackACC: 31.0 legACC: 50.0 | time: 0.0673s
+Epoch: 0095 | loss: 0.0334 | loss: 2.6643 Ac:  38.80 fackACC: 23.3 legACC:100.0 | time: 0.1201s
+                                                                  | loss: 2.5464 Ac:  40.93 fackACC: 30.9 legACC: 50.0 | time: 0.0675s
+Epoch: 0096 | loss: 0.0429 | loss: 2.6710 Ac:  38.80 fackACC: 23.3 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 2.5523 Ac:  40.93 fackACC: 30.6 legACC: 57.1 | time: 0.0670s
+Epoch: 0097 | loss: 0.0276 | loss: 2.6774 Ac:  38.90 fackACC: 23.1 legACC:100.0 | time: 0.1177s
+                                                                  | loss: 2.5577 Ac:  40.76 fackACC: 30.4 legACC: 66.7 | time: 0.0670s
+Epoch: 0098 | loss: 0.0317 | loss: 2.6831 Ac:  38.80 fackACC: 23.1 legACC:100.0 | time: 0.1243s
+                                                                  | loss: 2.5626 Ac:  40.69 fackACC: 30.3 legACC: 66.7 | time: 0.0780s
+Epoch: 0099 | loss: 0.0312 | loss: 2.6892 Ac:  38.80 fackACC: 23.1 legACC:100.0 | time: 0.1181s
+                                                                  | loss: 2.5676 Ac:  40.66 fackACC: 30.3 legACC: 57.1 | time: 0.0670s
+Epoch: 0100 | loss: 0.0271 | loss: 2.6948 Ac:  38.90 fackACC: 23.0 legACC:100.0 | time: 0.1178s
+                                                                  | loss: 2.5722 Ac:  40.61 fackACC: 30.3 legACC: 66.7 | time: 0.0674s
+Epoch: 0101 | loss: 0.0277 | loss: 2.7009 Ac:  38.90 fackACC: 23.1 legACC:100.0 | time: 0.1210s
+                                                                  | loss: 2.5774 Ac:  40.64 fackACC: 30.5 legACC: 71.4 | time: 0.0676s
+Epoch: 0102 | loss: 0.0380 | loss: 2.7080 Ac:  39.20 fackACC: 23.1 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 2.5836 Ac:  40.62 fackACC: 30.8 legACC: 62.5 | time: 0.0670s
+Epoch: 0103 | loss: 0.0306 | loss: 2.7143 Ac:  39.20 fackACC: 22.8 legACC:100.0 | time: 0.1188s
+                                                                  | loss: 2.5894 Ac:  40.51 fackACC: 30.2 legACC: 71.4 | time: 0.0674s
+Epoch: 0104 | loss: 0.0245 | loss: 2.7204 Ac:  39.20 fackACC: 22.8 legACC:100.0 | time: 0.1187s
+                                                                  | loss: 2.5948 Ac:  40.30 fackACC: 29.9 legACC: 71.4 | time: 0.0673s
+Epoch: 0105 | loss: 0.0277 | loss: 2.7262 Ac:  39.10 fackACC: 22.7 legACC:100.0 | time: 0.1186s
+                                                                  | loss: 2.6001 Ac:  40.19 fackACC: 29.6 legACC: 66.7 | time: 0.0689s
+Epoch: 0106 | loss: 0.0267 | loss: 2.7332 Ac:  39.00 fackACC: 22.4 legACC:100.0 | time: 0.1221s
+                                                                  | loss: 2.6066 Ac:  40.15 fackACC: 29.0 legACC: 66.7 | time: 0.0670s
+Epoch: 0107 | loss: 0.0276 | loss: 2.7404 Ac:  39.10 fackACC: 22.2 legACC:100.0 | time: 0.1227s
+                                                                  | loss: 2.6131 Ac:  40.19 fackACC: 29.2 legACC: 66.7 | time: 0.0673s
+Epoch: 0108 | loss: 0.0266 | loss: 2.7468 Ac:  39.10 fackACC: 23.0 legACC:100.0 | time: 0.1264s
+                                                                  | loss: 2.6186 Ac:  40.08 fackACC: 29.3 legACC: 66.7 | time: 0.0669s
+Epoch: 0109 | loss: 0.0247 | loss: 2.7533 Ac:  39.10 fackACC: 23.1 legACC:100.0 | time: 0.1199s
+                                                                  | loss: 2.6243 Ac:  39.98 fackACC: 29.6 legACC: 66.7 | time: 0.0694s
+Epoch: 0110 | loss: 0.0244 | loss: 2.7601 Ac:  39.00 fackACC: 23.5 legACC:100.0 | time: 0.1191s
+                                                                  | loss: 2.6300 Ac:  39.92 fackACC: 29.5 legACC: 66.7 | time: 0.0670s
+Epoch: 0111 | loss: 0.0239 | loss: 2.7679 Ac:  38.80 fackACC: 23.3 legACC:100.0 | time: 0.1191s
+                                                                  | loss: 2.6368 Ac:  39.83 fackACC: 29.6 legACC: 66.7 | time: 0.0672s
+Epoch: 0112 | loss: 0.0271 | loss: 2.7744 Ac:  38.80 fackACC: 23.3 legACC:100.0 | time: 0.1267s
+                                                                  | loss: 2.6427 Ac:  39.76 fackACC: 30.0 legACC: 66.7 | time: 0.0674s
+Epoch: 0113 | loss: 0.0273 | loss: 2.7802 Ac:  38.50 fackACC: 23.5 legACC:100.0 | time: 0.1212s
+                                                                  | loss: 2.6478 Ac:  39.71 fackACC: 31.0 legACC: 66.7 | time: 0.0710s
+Epoch: 0114 | loss: 0.0219 | loss: 2.7852 Ac:  38.40 fackACC: 23.9 legACC:100.0 | time: 0.1215s
+                                                                  | loss: 2.6524 Ac:  39.58 fackACC: 31.4 legACC: 66.7 | time: 0.0678s
+Epoch: 0115 | loss: 0.0223 | loss: 2.7896 Ac:  38.30 fackACC: 24.1 legACC: 50.0 | time: 0.1191s
+                                                                  | loss: 2.6563 Ac:  39.55 fackACC: 32.0 legACC: 66.7 | time: 0.0675s
+Epoch: 0116 | loss: 0.0216 | loss: 2.7953 Ac:  38.40 fackACC: 24.1 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.6614 Ac:  39.55 fackACC: 32.0 legACC: 66.7 | time: 0.0671s
+Epoch: 0117 | loss: 0.0209 | loss: 2.8002 Ac:  38.50 fackACC: 23.9 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.6659 Ac:  39.65 fackACC: 31.3 legACC: 66.7 | time: 0.0694s
+Epoch: 0118 | loss: 0.0166 | loss: 2.8034 Ac:  38.50 fackACC: 23.0 legACC: 50.0 | time: 0.1207s
+                                                                  | loss: 2.6688 Ac:  39.61 fackACC: 30.0 legACC: 66.7 | time: 0.0670s
+Epoch: 0119 | loss: 0.0277 | loss: 2.8068 Ac:  38.70 fackACC: 23.3 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.6713 Ac:  39.71 fackACC: 29.0 legACC: 66.7 | time: 0.0671s
+Epoch: 0120 | loss: 0.0299 | loss: 2.8081 Ac:  38.70 fackACC: 22.9 legACC: 50.0 | time: 0.1196s
+                                                                  | loss: 2.6721 Ac:  39.88 fackACC: 28.2 legACC: 66.7 | time: 0.0675s
+Epoch: 0121 | loss: 0.0173 | loss: 2.8094 Ac:  38.60 fackACC: 22.2 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.6727 Ac:  40.00 fackACC: 27.6 legACC: 66.7 | time: 0.0670s
+Epoch: 0122 | loss: 0.0180 | loss: 2.8114 Ac:  38.40 fackACC: 22.4 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.6741 Ac:  40.03 fackACC: 27.4 legACC: 66.7 | time: 0.0669s
+Epoch: 0123 | loss: 0.0157 | loss: 2.8131 Ac:  38.40 fackACC: 22.5 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.6754 Ac:  40.07 fackACC: 27.3 legACC: 66.7 | time: 0.0671s
+Epoch: 0124 | loss: 0.0202 | loss: 2.8165 Ac:  38.70 fackACC: 22.7 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.6785 Ac:  40.03 fackACC: 27.6 legACC: 66.7 | time: 0.0670s
+Epoch: 0125 | loss: 0.0209 | loss: 2.8201 Ac:  38.70 fackACC: 22.9 legACC: 50.0 | time: 0.1187s
+                                                                  | loss: 2.6817 Ac:  40.12 fackACC: 28.3 legACC: 60.0 | time: 0.0687s
+Epoch: 0126 | loss: 0.0186 | loss: 2.8244 Ac:  38.50 fackACC: 22.9 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.6857 Ac:  40.07 fackACC: 28.4 legACC: 60.0 | time: 0.0669s
+Epoch: 0127 | loss: 0.0234 | loss: 2.8299 Ac:  38.70 fackACC: 23.0 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.6909 Ac:  40.10 fackACC: 28.5 legACC: 60.0 | time: 0.0670s
+Epoch: 0128 | loss: 0.0234 | loss: 2.8363 Ac:  38.80 fackACC: 23.2 legACC: 50.0 | time: 0.1197s
+                                                                  | loss: 2.6969 Ac:  40.03 fackACC: 28.5 legACC: 60.0 | time: 0.0668s
+Epoch: 0129 | loss: 0.0274 | loss: 2.8437 Ac:  38.80 fackACC: 23.2 legACC: 50.0 | time: 0.1200s
+                                                                  | loss: 2.7037 Ac:  39.95 fackACC: 28.6 legACC: 60.0 | time: 0.0669s
+Epoch: 0130 | loss: 0.0261 | loss: 2.8514 Ac:  38.90 fackACC: 23.9 legACC: 50.0 | time: 0.1207s
+                                                                  | loss: 2.7108 Ac:  39.87 fackACC: 29.0 legACC: 60.0 | time: 0.0687s
+Epoch: 0131 | loss: 0.0188 | loss: 2.8595 Ac:  38.60 fackACC: 23.3 legACC: 50.0 | time: 0.1217s
+                                                                  | loss: 2.7182 Ac:  39.80 fackACC: 29.0 legACC: 60.0 | time: 0.0673s
+Epoch: 0132 | loss: 0.0218 | loss: 2.8676 Ac:  38.50 fackACC: 23.3 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.7256 Ac:  39.76 fackACC: 29.7 legACC: 60.0 | time: 0.0671s
+Epoch: 0133 | loss: 0.0194 | loss: 2.8752 Ac:  38.10 fackACC: 23.5 legACC: 50.0 | time: 0.1183s
+                                                                  | loss: 2.7327 Ac:  39.44 fackACC: 31.2 legACC: 60.0 | time: 0.0670s
+Epoch: 0134 | loss: 0.0163 | loss: 2.8823 Ac:  38.10 fackACC: 24.5 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.7392 Ac:  39.39 fackACC: 33.1 legACC: 60.0 | time: 0.0673s
+Epoch: 0135 | loss: 0.0214 | loss: 2.8914 Ac:  37.60 fackACC: 24.5 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.7479 Ac:  39.21 fackACC: 34.1 legACC: 60.0 | time: 0.0670s
+Epoch: 0136 | loss: 0.0213 | loss: 2.9005 Ac:  37.70 fackACC: 25.2 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.7564 Ac:  39.06 fackACC: 34.4 legACC: 60.0 | time: 0.0671s
+Epoch: 0137 | loss: 0.0221 | loss: 2.9075 Ac:  37.60 fackACC: 24.5 legACC: 50.0 | time: 0.1174s
+                                                                  | loss: 2.7630 Ac:  38.96 fackACC: 34.4 legACC: 60.0 | time: 0.0670s
+Epoch: 0138 | loss: 0.0165 | loss: 2.9126 Ac:  37.60 fackACC: 24.5 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.7678 Ac:  38.84 fackACC: 34.6 legACC: 60.0 | time: 0.0684s
+Epoch: 0139 | loss: 0.0263 | loss: 2.9166 Ac:  37.60 fackACC: 24.5 legACC: 50.0 | time: 0.1181s
+                                                                  | loss: 2.7712 Ac:  38.87 fackACC: 34.7 legACC: 60.0 | time: 0.0675s
+Epoch: 0140 | loss: 0.0161 | loss: 2.9194 Ac:  37.50 fackACC: 24.0 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.7736 Ac:  38.94 fackACC: 34.4 legACC: 60.0 | time: 0.0671s
+Epoch: 0141 | loss: 0.0180 | loss: 2.9206 Ac:  37.50 fackACC: 24.5 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 2.7745 Ac:  39.04 fackACC: 34.4 legACC: 60.0 | time: 0.0672s
+Epoch: 0142 | loss: 0.0178 | loss: 2.9223 Ac:  37.50 fackACC: 23.9 legACC: 50.0 | time: 0.1201s
+                                                                  | loss: 2.7761 Ac:  39.06 fackACC: 33.5 legACC: 60.0 | time: 0.0670s
+Epoch: 0143 | loss: 0.0186 | loss: 2.9234 Ac:  37.60 fackACC: 23.9 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.7771 Ac:  39.18 fackACC: 32.2 legACC: 60.0 | time: 0.0691s
+Epoch: 0144 | loss: 0.0223 | loss: 2.9240 Ac:  37.60 fackACC: 23.0 legACC: 50.0 | time: 0.1199s
+                                                                  | loss: 2.7777 Ac:  39.26 fackACC: 31.3 legACC: 60.0 | time: 0.0670s
+Epoch: 0145 | loss: 0.0260 | loss: 2.9236 Ac:  37.70 fackACC: 21.9 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.7774 Ac:  39.41 fackACC: 30.3 legACC: 50.0 | time: 0.0670s
+Epoch: 0146 | loss: 0.0125 | loss: 2.9220 Ac:  38.10 fackACC: 22.2 legACC: 50.0 | time: 0.1189s
+                                                                  | loss: 2.7761 Ac:  39.53 fackACC: 28.3 legACC: 50.0 | time: 0.0676s
+Epoch: 0147 | loss: 0.0248 | loss: 2.9212 Ac:  38.30 fackACC: 20.4 legACC: 50.0 | time: 0.1181s
+                                                                  | loss: 2.7755 Ac:  39.58 fackACC: 27.0 legACC: 50.0 | time: 0.0673s
+Epoch: 0148 | loss: 0.0223 | loss: 2.9210 Ac:  38.30 fackACC: 20.0 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.7755 Ac:  39.53 fackACC: 26.2 legACC: 50.0 | time: 0.0673s
+Epoch: 0149 | loss: 0.0184 | loss: 2.9206 Ac:  38.30 fackACC: 19.9 legACC: 50.0 | time: 0.1188s
+                                                                  | loss: 2.7752 Ac:  39.49 fackACC: 25.7 legACC: 50.0 | time: 0.0670s
+Epoch: 0150 | loss: 0.0125 | loss: 2.9208 Ac:  38.20 fackACC: 19.6 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.7754 Ac:  39.53 fackACC: 25.8 legACC: 50.0 | time: 0.0671s
+Epoch: 0151 | loss: 0.0155 | loss: 2.9227 Ac:  38.20 fackACC: 19.5 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.7773 Ac:  39.41 fackACC: 25.6 legACC: 50.0 | time: 0.0672s
+Epoch: 0152 | loss: 0.0218 | loss: 2.9268 Ac:  38.10 fackACC: 19.4 legACC: 50.0 | time: 0.1192s
+                                                                  | loss: 2.7812 Ac:  39.31 fackACC: 25.3 legACC: 50.0 | time: 0.0671s
+Epoch: 0153 | loss: 0.0170 | loss: 2.9314 Ac:  38.00 fackACC: 19.3 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.7856 Ac:  39.33 fackACC: 24.9 legACC: 50.0 | time: 0.0673s
+Epoch: 0154 | loss: 0.0182 | loss: 2.9359 Ac:  37.60 fackACC: 18.4 legACC: 50.0 | time: 0.1201s
+                                                                  | loss: 2.7898 Ac:  39.29 fackACC: 24.3 legACC: 50.0 | time: 0.0670s
+Epoch: 0155 | loss: 0.0124 | loss: 2.9419 Ac:  37.40 fackACC: 18.2 legACC: 50.0 | time: 0.1197s
+                                                                  | loss: 2.7953 Ac:  39.18 fackACC: 23.8 legACC: 60.0 | time: 0.0672s
+Epoch: 0156 | loss: 0.0126 | loss: 2.9489 Ac:  37.40 fackACC: 18.4 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.8017 Ac:  39.16 fackACC: 23.7 legACC: 60.0 | time: 0.0670s
+Epoch: 0157 | loss: 0.0171 | loss: 2.9555 Ac:  37.40 fackACC: 18.5 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.8078 Ac:  39.24 fackACC: 23.9 legACC: 60.0 | time: 0.0672s
+Epoch: 0158 | loss: 0.0189 | loss: 2.9616 Ac:  37.50 fackACC: 18.6 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.8134 Ac:  39.26 fackACC: 24.3 legACC: 60.0 | time: 0.0671s
+Epoch: 0159 | loss: 0.0174 | loss: 2.9669 Ac:  37.80 fackACC: 19.4 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.8181 Ac:  39.19 fackACC: 24.9 legACC: 60.0 | time: 0.0671s
+Epoch: 0160 | loss: 0.0210 | loss: 2.9727 Ac:  37.90 fackACC: 20.2 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.8231 Ac:  39.16 fackACC: 25.9 legACC: 60.0 | time: 0.0674s
+Epoch: 0161 | loss: 0.0225 | loss: 2.9778 Ac:  37.80 fackACC: 21.3 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.8275 Ac:  39.09 fackACC: 27.2 legACC: 60.0 | time: 0.0671s
+Epoch: 0162 | loss: 0.0224 | loss: 2.9821 Ac:  37.50 fackACC: 21.5 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.8311 Ac:  38.94 fackACC: 29.5 legACC: 60.0 | time: 0.0671s
+Epoch: 0163 | loss: 0.0128 | loss: 2.9856 Ac:  37.80 fackACC: 24.0 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.8341 Ac:  38.82 fackACC: 30.7 legACC: 60.0 | time: 0.0675s
+Epoch: 0164 | loss: 0.0217 | loss: 2.9881 Ac:  37.60 fackACC: 23.3 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.8362 Ac:  38.92 fackACC: 32.1 legACC: 60.0 | time: 0.0674s
+Epoch: 0165 | loss: 0.0162 | loss: 2.9916 Ac:  37.50 fackACC: 24.1 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 2.8392 Ac:  38.92 fackACC: 32.9 legACC: 60.0 | time: 0.0675s
+Epoch: 0166 | loss: 0.0226 | loss: 2.9956 Ac:  37.40 fackACC: 24.3 legACC: 50.0 | time: 0.1175s
+                                                                  | loss: 2.8429 Ac:  38.80 fackACC: 33.5 legACC: 60.0 | time: 0.0672s
+Epoch: 0167 | loss: 0.0129 | loss: 2.9998 Ac:  37.50 fackACC: 25.0 legACC: 50.0 | time: 0.1191s
+                                                                  | loss: 2.8467 Ac:  38.75 fackACC: 34.3 legACC: 60.0 | time: 0.0672s
+Epoch: 0168 | loss: 0.0151 | loss: 3.0023 Ac:  37.40 fackACC: 24.5 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.8489 Ac:  38.74 fackACC: 34.4 legACC: 60.0 | time: 0.0671s
+Epoch: 0169 | loss: 0.0129 | loss: 3.0042 Ac:  37.40 fackACC: 24.5 legACC: 50.0 | time: 0.1181s
+                                                                  | loss: 2.8506 Ac:  38.72 fackACC: 34.8 legACC: 60.0 | time: 0.0690s
+Epoch: 0170 | loss: 0.0205 | loss: 3.0058 Ac:  37.40 fackACC: 24.5 legACC: 50.0 | time: 0.1188s
+                                                                  | loss: 2.8520 Ac:  38.77 fackACC: 34.6 legACC: 50.0 | time: 0.0671s
+Epoch: 0171 | loss: 0.0122 | loss: 3.0065 Ac:  37.40 fackACC: 25.2 legACC: 50.0 | time: 0.1184s
+                                                                  | loss: 2.8527 Ac:  38.86 fackACC: 34.4 legACC: 50.0 | time: 0.0671s
+Epoch: 0172 | loss: 0.0212 | loss: 3.0060 Ac:  37.20 fackACC: 24.5 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.8523 Ac:  38.97 fackACC: 33.5 legACC: 50.0 | time: 0.0672s
+Epoch: 0173 | loss: 0.0173 | loss: 3.0076 Ac:  37.30 fackACC: 22.9 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.8540 Ac:  39.07 fackACC: 31.7 legACC: 50.0 | time: 0.0678s
+Epoch: 0174 | loss: 0.0184 | loss: 3.0092 Ac:  37.50 fackACC: 23.6 legACC: 50.0 | time: 0.1181s
+                                                                  | loss: 2.8558 Ac:  39.11 fackACC: 30.3 legACC: 50.0 | time: 0.0671s
+Epoch: 0175 | loss: 0.0214 | loss: 3.0118 Ac:  38.00 fackACC: 22.7 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 2.8587 Ac:  39.24 fackACC: 28.6 legACC: 50.0 | time: 0.0673s
+Epoch: 0176 | loss: 0.0142 | loss: 3.0144 Ac:  38.00 fackACC: 21.5 legACC: 50.0 | time: 0.1188s
+                                                                  | loss: 2.8613 Ac:  39.24 fackACC: 26.7 legACC: 42.9 | time: 0.0671s
+Epoch: 0177 | loss: 0.0185 | loss: 3.0169 Ac:  37.90 fackACC: 20.9 legACC: 50.0 | time: 0.1205s
+                                                                  | loss: 2.8640 Ac:  39.14 fackACC: 25.7 legACC: 42.9 | time: 0.0672s
+Epoch: 0178 | loss: 0.0141 | loss: 3.0191 Ac:  37.80 fackACC: 20.7 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.8663 Ac:  39.12 fackACC: 25.7 legACC: 42.9 | time: 0.0675s
+Epoch: 0179 | loss: 0.0132 | loss: 3.0205 Ac:  37.80 fackACC: 20.6 legACC: 50.0 | time: 0.1223s
+                                                                  | loss: 2.8678 Ac:  39.16 fackACC: 25.8 legACC: 42.9 | time: 0.0674s
+Epoch: 0180 | loss: 0.0139 | loss: 3.0231 Ac:  37.90 fackACC: 20.7 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 2.8704 Ac:  39.04 fackACC: 25.7 legACC: 42.9 | time: 0.0670s
+Epoch: 0181 | loss: 0.0189 | loss: 3.0250 Ac:  38.00 fackACC: 21.8 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.8723 Ac:  39.01 fackACC: 26.8 legACC: 42.9 | time: 0.0671s
+Epoch: 0182 | loss: 0.0172 | loss: 3.0273 Ac:  37.70 fackACC: 21.6 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.8745 Ac:  38.92 fackACC: 28.0 legACC: 42.9 | time: 0.0670s
+Epoch: 0183 | loss: 0.0159 | loss: 3.0292 Ac:  37.70 fackACC: 21.6 legACC: 50.0 | time: 0.1205s
+                                                                  | loss: 2.8763 Ac:  38.89 fackACC: 28.2 legACC: 42.9 | time: 0.0671s
+Epoch: 0184 | loss: 0.0161 | loss: 3.0316 Ac:  37.60 fackACC: 22.1 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.8785 Ac:  38.79 fackACC: 29.4 legACC: 42.9 | time: 0.0669s
+Epoch: 0185 | loss: 0.0107 | loss: 3.0338 Ac:  37.70 fackACC: 22.9 legACC: 50.0 | time: 0.1205s
+                                                                  | loss: 2.8804 Ac:  38.82 fackACC: 30.2 legACC: 42.9 | time: 0.0673s
+Epoch: 0186 | loss: 0.0155 | loss: 3.0369 Ac:  37.60 fackACC: 22.9 legACC: 50.0 | time: 0.1277s
+                                                                  | loss: 2.8832 Ac:  38.87 fackACC: 30.5 legACC: 42.9 | time: 0.0685s
+Epoch: 0187 | loss: 0.0154 | loss: 3.0401 Ac:  37.60 fackACC: 22.6 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.8861 Ac:  38.91 fackACC: 30.6 legACC: 42.9 | time: 0.0671s
+Epoch: 0188 | loss: 0.0197 | loss: 3.0441 Ac:  37.50 fackACC: 22.6 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.8898 Ac:  38.94 fackACC: 30.7 legACC: 42.9 | time: 0.0670s
+Epoch: 0189 | loss: 0.0170 | loss: 3.0488 Ac:  37.50 fackACC: 22.4 legACC: 50.0 | time: 0.1191s
+                                                                  | loss: 2.8943 Ac:  38.91 fackACC: 30.7 legACC: 42.9 | time: 0.0671s
+Epoch: 0190 | loss: 0.0097 | loss: 3.0531 Ac:  37.40 fackACC: 22.1 legACC: 50.0 | time: 0.1190s
+                                                                  | loss: 2.8984 Ac:  38.92 fackACC: 31.0 legACC: 42.9 | time: 0.0676s
+Epoch: 0191 | loss: 0.0146 | loss: 3.0585 Ac:  37.20 fackACC: 21.6 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.9035 Ac:  38.82 fackACC: 31.3 legACC: 42.9 | time: 0.0671s
+Epoch: 0192 | loss: 0.0144 | loss: 3.0626 Ac:  37.20 fackACC: 21.5 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9074 Ac:  38.77 fackACC: 30.7 legACC: 42.9 | time: 0.0671s
+Epoch: 0193 | loss: 0.0119 | loss: 3.0680 Ac:  37.30 fackACC: 21.5 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.9123 Ac:  38.69 fackACC: 30.4 legACC: 42.9 | time: 0.0670s
+Epoch: 0194 | loss: 0.0120 | loss: 3.0734 Ac:  37.20 fackACC: 21.0 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.9173 Ac:  38.64 fackACC: 30.1 legACC: 42.9 | time: 0.0669s
+Epoch: 0195 | loss: 0.0133 | loss: 3.0800 Ac:  37.20 fackACC: 21.2 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9234 Ac:  38.55 fackACC: 30.6 legACC: 50.0 | time: 0.0696s
+Epoch: 0196 | loss: 0.0143 | loss: 3.0877 Ac:  37.00 fackACC: 21.5 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.9305 Ac:  38.43 fackACC: 30.7 legACC: 50.0 | time: 0.0670s
+Epoch: 0197 | loss: 0.0094 | loss: 3.0937 Ac:  36.80 fackACC: 21.4 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9361 Ac:  38.43 fackACC: 31.0 legACC: 50.0 | time: 0.0671s
+Epoch: 0198 | loss: 0.0120 | loss: 3.0969 Ac:  36.90 fackACC: 21.2 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.9391 Ac:  38.37 fackACC: 31.2 legACC: 60.0 | time: 0.0670s
+Epoch: 0199 | loss: 0.0175 | loss: 3.1000 Ac:  36.90 fackACC: 20.6 legACC: 50.0 | time: 0.1218s
+                                                                  | loss: 2.9427 Ac:  38.27 fackACC: 30.2 legACC: 60.0 | time: 0.0669s
+Epoch: 0200 | loss: 0.0129 | loss: 3.1022 Ac:  36.60 fackACC: 20.4 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.9453 Ac:  38.23 fackACC: 29.4 legACC: 60.0 | time: 0.0672s
+Epoch: 0201 | loss: 0.0114 | loss: 3.1041 Ac:  36.60 fackACC: 20.4 legACC: 50.0 | time: 0.1183s
+                                                                  | loss: 2.9476 Ac:  38.18 fackACC: 28.7 legACC: 60.0 | time: 0.0671s
+Epoch: 0202 | loss: 0.0125 | loss: 3.1054 Ac:  36.70 fackACC: 20.3 legACC: 50.0 | time: 0.1193s
+                                                                  | loss: 2.9490 Ac:  38.13 fackACC: 28.4 legACC: 60.0 | time: 0.0668s
+Epoch: 0203 | loss: 0.0162 | loss: 3.1066 Ac:  36.50 fackACC: 19.6 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.9503 Ac:  38.13 fackACC: 29.0 legACC: 60.0 | time: 0.0670s
+Epoch: 0204 | loss: 0.0161 | loss: 3.1106 Ac:  36.50 fackACC: 20.3 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.9542 Ac:  38.03 fackACC: 29.6 legACC: 60.0 | time: 0.0670s
+Epoch: 0205 | loss: 0.0187 | loss: 3.1160 Ac:  36.20 fackACC: 20.1 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9594 Ac:  37.96 fackACC: 29.3 legACC: 60.0 | time: 0.0670s
+Epoch: 0206 | loss: 0.0182 | loss: 3.1187 Ac:  36.00 fackACC: 19.7 legACC: 50.0 | time: 0.1193s
+                                                                  | loss: 2.9622 Ac:  37.90 fackACC: 29.0 legACC: 60.0 | time: 0.0674s
+Epoch: 0207 | loss: 0.0135 | loss: 3.1207 Ac:  36.10 fackACC: 19.4 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.9642 Ac:  37.86 fackACC: 28.7 legACC: 60.0 | time: 0.0671s
+Epoch: 0208 | loss: 0.0125 | loss: 3.1244 Ac:  36.40 fackACC: 20.0 legACC: 50.0 | time: 0.1206s
+                                                                  | loss: 2.9678 Ac:  37.91 fackACC: 28.2 legACC: 60.0 | time: 0.0671s
+Epoch: 0209 | loss: 0.0138 | loss: 3.1293 Ac:  36.30 fackACC: 19.5 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.9728 Ac:  37.88 fackACC: 28.3 legACC: 60.0 | time: 0.0672s
+Epoch: 0210 | loss: 0.0139 | loss: 3.1350 Ac:  36.20 fackACC: 19.3 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.9785 Ac:  37.86 fackACC: 28.1 legACC: 60.0 | time: 0.0669s
+Epoch: 0211 | loss: 0.0156 | loss: 3.1374 Ac:  36.20 fackACC: 19.2 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.9811 Ac:  37.83 fackACC: 27.8 legACC: 60.0 | time: 0.0676s
+Epoch: 0212 | loss: 0.0158 | loss: 3.1398 Ac:  36.30 fackACC: 19.5 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.9839 Ac:  37.83 fackACC: 27.2 legACC: 60.0 | time: 0.0672s
+Epoch: 0213 | loss: 0.0155 | loss: 3.1428 Ac:  36.30 fackACC: 19.6 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9872 Ac:  37.81 fackACC: 26.0 legACC: 60.0 | time: 0.0668s
+Epoch: 0214 | loss: 0.0156 | loss: 3.1446 Ac:  36.00 fackACC: 18.8 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9892 Ac:  37.85 fackACC: 24.9 legACC: 60.0 | time: 0.0671s
+Epoch: 0215 | loss: 0.0151 | loss: 3.1451 Ac:  36.20 fackACC: 18.5 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.9897 Ac:  38.10 fackACC: 24.0 legACC: 60.0 | time: 0.0671s
+Epoch: 0216 | loss: 0.0178 | loss: 3.1444 Ac:  36.20 fackACC: 17.4 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.9888 Ac:  38.13 fackACC: 22.8 legACC: 60.0 | time: 0.0678s
+Epoch: 0217 | loss: 0.0098 | loss: 3.1427 Ac:  36.20 fackACC: 17.1 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 2.9870 Ac:  38.20 fackACC: 22.5 legACC: 60.0 | time: 0.0669s
+Epoch: 0218 | loss: 0.0109 | loss: 3.1414 Ac:  36.30 fackACC: 17.0 legACC: 50.0 | time: 0.1196s
+                                                                  | loss: 2.9855 Ac:  38.30 fackACC: 22.1 legACC: 60.0 | time: 0.0671s
+Epoch: 0219 | loss: 0.0101 | loss: 3.1404 Ac:  36.30 fackACC: 17.2 legACC: 50.0 | time: 0.1181s
+                                                                  | loss: 2.9840 Ac:  38.32 fackACC: 22.5 legACC: 60.0 | time: 0.0672s
+Epoch: 0220 | loss: 0.0120 | loss: 3.1396 Ac:  36.40 fackACC: 17.5 legACC: 50.0 | time: 0.1205s
+                                                                  | loss: 2.9828 Ac:  38.32 fackACC: 23.0 legACC: 60.0 | time: 0.0672s
+Epoch: 0221 | loss: 0.0205 | loss: 3.1391 Ac:  36.20 fackACC: 18.8 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.9816 Ac:  38.28 fackACC: 24.2 legACC: 60.0 | time: 0.0671s
+Epoch: 0222 | loss: 0.0212 | loss: 3.1405 Ac:  35.90 fackACC: 18.8 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9822 Ac:  38.16 fackACC: 25.6 legACC: 60.0 | time: 0.0671s
+Epoch: 0223 | loss: 0.0155 | loss: 3.1433 Ac:  36.00 fackACC: 19.9 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.9842 Ac:  38.22 fackACC: 26.5 legACC: 60.0 | time: 0.0670s
+Epoch: 0224 | loss: 0.0083 | loss: 3.1457 Ac:  36.30 fackACC: 19.9 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9858 Ac:  38.22 fackACC: 26.4 legACC: 60.0 | time: 0.0670s
+Epoch: 0225 | loss: 0.0111 | loss: 3.1503 Ac:  36.20 fackACC: 19.9 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.9897 Ac:  38.08 fackACC: 26.3 legACC: 60.0 | time: 0.0671s
+Epoch: 0226 | loss: 0.0137 | loss: 3.1542 Ac:  36.20 fackACC: 19.9 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.9927 Ac:  38.08 fackACC: 26.1 legACC: 60.0 | time: 0.0671s
+Epoch: 0227 | loss: 0.0107 | loss: 3.1576 Ac:  36.20 fackACC: 19.5 legACC: 50.0 | time: 0.1200s
+                                                                  | loss: 2.9952 Ac:  38.08 fackACC: 26.0 legACC: 60.0 | time: 0.0671s
+Epoch: 0228 | loss: 0.0121 | loss: 3.1604 Ac:  36.30 fackACC: 18.3 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 2.9973 Ac:  38.05 fackACC: 25.1 legACC: 60.0 | time: 0.0671s
+Epoch: 0229 | loss: 0.0103 | loss: 3.1633 Ac:  36.40 fackACC: 18.2 legACC: 66.7 | time: 0.1181s
+                                                                  | loss: 2.9994 Ac:  38.01 fackACC: 24.9 legACC: 60.0 | time: 0.0671s
+Epoch: 0230 | loss: 0.0148 | loss: 3.1644 Ac:  36.60 fackACC: 17.3 legACC: 66.7 | time: 0.1172s
+                                                                  | loss: 2.9999 Ac:  38.20 fackACC: 23.0 legACC: 60.0 | time: 0.0669s
+Epoch: 0231 | loss: 0.0100 | loss: 3.1642 Ac:  36.70 fackACC: 17.3 legACC: 66.7 | time: 0.1202s
+                                                                  | loss: 2.9991 Ac:  38.35 fackACC: 22.3 legACC: 60.0 | time: 0.0669s
+Epoch: 0232 | loss: 0.0154 | loss: 3.1617 Ac:  36.90 fackACC: 17.6 legACC: 66.7 | time: 0.1175s
+                                                                  | loss: 2.9956 Ac:  38.35 fackACC: 22.3 legACC: 60.0 | time: 0.0669s
+Epoch: 0233 | loss: 0.0172 | loss: 3.1583 Ac:  36.70 fackACC: 17.5 legACC: 66.7 | time: 0.1178s
+                                                                  | loss: 2.9917 Ac:  38.28 fackACC: 22.7 legACC: 60.0 | time: 0.0673s
+Epoch: 0234 | loss: 0.0190 | loss: 3.1536 Ac:  36.90 fackACC: 18.1 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.9865 Ac:  38.33 fackACC: 23.5 legACC: 60.0 | time: 0.0669s
+Epoch: 0235 | loss: 0.0083 | loss: 3.1508 Ac:  37.00 fackACC: 18.9 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 2.9833 Ac:  38.45 fackACC: 24.2 legACC: 60.0 | time: 0.0670s
+Epoch: 0236 | loss: 0.0112 | loss: 3.1494 Ac:  37.00 fackACC: 19.4 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 2.9816 Ac:  38.40 fackACC: 25.9 legACC: 60.0 | time: 0.0670s
+Epoch: 0237 | loss: 0.0186 | loss: 3.1507 Ac:  36.90 fackACC: 20.3 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.9830 Ac:  38.30 fackACC: 27.2 legACC: 60.0 | time: 0.0671s
+Epoch: 0238 | loss: 0.0111 | loss: 3.1533 Ac:  37.00 fackACC: 20.5 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 2.9858 Ac:  38.28 fackACC: 27.0 legACC: 60.0 | time: 0.0671s
+Epoch: 0239 | loss: 0.0116 | loss: 3.1563 Ac:  36.80 fackACC: 20.7 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 2.9888 Ac:  38.18 fackACC: 27.6 legACC: 60.0 | time: 0.0670s
+Epoch: 0240 | loss: 0.0077 | loss: 3.1565 Ac:  36.80 fackACC: 20.7 legACC: 50.0 | time: 0.1202s
+                                                                  | loss: 2.9891 Ac:  38.23 fackACC: 28.4 legACC: 60.0 | time: 0.0670s
+Epoch: 0241 | loss: 0.0132 | loss: 3.1568 Ac:  36.80 fackACC: 22.0 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.9896 Ac:  38.23 fackACC: 29.6 legACC: 60.0 | time: 0.0669s
+Epoch: 0242 | loss: 0.0115 | loss: 3.1587 Ac:  36.90 fackACC: 21.7 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.9915 Ac:  38.15 fackACC: 29.8 legACC: 50.0 | time: 0.0671s
+Epoch: 0243 | loss: 0.0088 | loss: 3.1604 Ac:  36.90 fackACC: 21.7 legACC: 50.0 | time: 0.1192s
+                                                                  | loss: 2.9931 Ac:  38.13 fackACC: 29.6 legACC: 50.0 | time: 0.0671s
+Epoch: 0244 | loss: 0.0126 | loss: 3.1612 Ac:  36.80 fackACC: 21.5 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 2.9938 Ac:  38.06 fackACC: 29.4 legACC: 50.0 | time: 0.0670s
+Epoch: 0245 | loss: 0.0100 | loss: 3.1610 Ac:  36.90 fackACC: 21.4 legACC: 50.0 | time: 0.1198s
+                                                                  | loss: 2.9935 Ac:  38.13 fackACC: 28.9 legACC: 50.0 | time: 0.0671s
+Epoch: 0246 | loss: 0.0238 | loss: 3.1635 Ac:  36.90 fackACC: 21.5 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 2.9958 Ac:  38.11 fackACC: 28.6 legACC: 60.0 | time: 0.0671s
+Epoch: 0247 | loss: 0.0108 | loss: 3.1668 Ac:  37.00 fackACC: 20.7 legACC: 50.0 | time: 0.1204s
+                                                                  | loss: 2.9987 Ac:  38.13 fackACC: 28.3 legACC: 60.0 | time: 0.0690s
+Epoch: 0248 | loss: 0.0151 | loss: 3.1696 Ac:  36.80 fackACC: 21.0 legACC: 50.0 | time: 0.1180s
+                                                                  | loss: 3.0012 Ac:  38.05 fackACC: 28.3 legACC: 60.0 | time: 0.0671s
+Epoch: 0249 | loss: 0.0128 | loss: 3.1738 Ac:  36.50 fackACC: 20.7 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 3.0050 Ac:  37.98 fackACC: 28.6 legACC: 60.0 | time: 0.0675s
+Epoch: 0250 | loss: 0.0121 | loss: 3.1789 Ac:  36.30 fackACC: 21.2 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0096 Ac:  37.98 fackACC: 28.9 legACC: 60.0 | time: 0.0670s
+Epoch: 0251 | loss: 0.0075 | loss: 3.1829 Ac:  36.10 fackACC: 21.9 legACC: 50.0 | time: 0.1205s
+                                                                  | loss: 3.0131 Ac:  37.98 fackACC: 29.2 legACC: 60.0 | time: 0.0670s
+Epoch: 0252 | loss: 0.0069 | loss: 3.1861 Ac:  36.10 fackACC: 21.7 legACC: 50.0 | time: 0.1200s
+                                                                  | loss: 3.0158 Ac:  37.98 fackACC: 29.3 legACC: 60.0 | time: 0.0669s
+Epoch: 0253 | loss: 0.0123 | loss: 3.1904 Ac:  36.10 fackACC: 22.2 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0195 Ac:  38.05 fackACC: 30.2 legACC: 60.0 | time: 0.0672s
+Epoch: 0254 | loss: 0.0083 | loss: 3.1936 Ac:  36.20 fackACC: 22.6 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0219 Ac:  38.06 fackACC: 30.7 legACC: 60.0 | time: 0.0670s
+Epoch: 0255 | loss: 0.0173 | loss: 3.1967 Ac:  36.00 fackACC: 22.8 legACC: 50.0 | time: 0.1197s
+                                                                  | loss: 3.0244 Ac:  38.08 fackACC: 30.8 legACC: 60.0 | time: 0.0671s
+Epoch: 0256 | loss: 0.0107 | loss: 3.2011 Ac:  35.90 fackACC: 22.1 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 3.0283 Ac:  38.08 fackACC: 31.2 legACC: 60.0 | time: 0.0670s
+Epoch: 0257 | loss: 0.0073 | loss: 3.2037 Ac:  35.90 fackACC: 22.3 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0303 Ac:  38.10 fackACC: 31.7 legACC: 60.0 | time: 0.0670s
+Epoch: 0258 | loss: 0.0100 | loss: 3.2043 Ac:  35.90 fackACC: 22.1 legACC: 50.0 | time: 0.1234s
+                                                                  | loss: 3.0307 Ac:  38.11 fackACC: 31.7 legACC: 60.0 | time: 0.0671s
+Epoch: 0259 | loss: 0.0125 | loss: 3.2095 Ac:  35.80 fackACC: 22.1 legACC: 50.0 | time: 0.1172s
+                                                                  | loss: 3.0355 Ac:  38.06 fackACC: 31.5 legACC: 60.0 | time: 0.0669s
+Epoch: 0260 | loss: 0.0089 | loss: 3.2119 Ac:  35.90 fackACC: 22.6 legACC: 50.0 | time: 0.1195s
+                                                                  | loss: 3.0375 Ac:  38.08 fackACC: 30.5 legACC: 60.0 | time: 0.0673s
+Epoch: 0261 | loss: 0.0099 | loss: 3.2150 Ac:  36.00 fackACC: 22.0 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 3.0402 Ac:  38.03 fackACC: 30.1 legACC: 60.0 | time: 0.0671s
+Epoch: 0262 | loss: 0.0093 | loss: 3.2192 Ac:  36.10 fackACC: 21.9 legACC: 50.0 | time: 0.1191s
+                                                                  | loss: 3.0440 Ac:  37.96 fackACC: 29.9 legACC: 60.0 | time: 0.0669s
+Epoch: 0263 | loss: 0.0116 | loss: 3.2241 Ac:  35.80 fackACC: 21.4 legACC: 50.0 | time: 0.1190s
+                                                                  | loss: 3.0489 Ac:  38.00 fackACC: 29.9 legACC: 60.0 | time: 0.0670s
+Epoch: 0264 | loss: 0.0137 | loss: 3.2282 Ac:  35.80 fackACC: 21.1 legACC: 50.0 | time: 0.1174s
+                                                                  | loss: 3.0528 Ac:  38.03 fackACC: 29.5 legACC: 50.0 | time: 0.0669s
+Epoch: 0265 | loss: 0.0183 | loss: 3.2329 Ac:  35.70 fackACC: 20.3 legACC: 50.0 | time: 0.1175s
+                                                                  | loss: 3.0574 Ac:  38.01 fackACC: 28.8 legACC: 50.0 | time: 0.0671s
+Epoch: 0266 | loss: 0.0079 | loss: 3.2355 Ac:  35.70 fackACC: 20.3 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 3.0599 Ac:  38.03 fackACC: 27.7 legACC: 50.0 | time: 0.0669s
+Epoch: 0267 | loss: 0.0088 | loss: 3.2404 Ac:  35.60 fackACC: 19.4 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0648 Ac:  37.95 fackACC: 26.0 legACC: 50.0 | time: 0.0671s
+Epoch: 0268 | loss: 0.0079 | loss: 3.2445 Ac:  35.60 fackACC: 18.1 legACC:100.0 | time: 0.1192s
+                                                                  | loss: 3.0689 Ac:  38.06 fackACC: 24.1 legACC: 50.0 | time: 0.0672s
+Epoch: 0269 | loss: 0.0083 | loss: 3.2506 Ac:  35.60 fackACC: 16.7 legACC:100.0 | time: 0.1186s
+                                                                  | loss: 3.0749 Ac:  38.13 fackACC: 22.0 legACC: 50.0 | time: 0.0670s
+Epoch: 0270 | loss: 0.0104 | loss: 3.2556 Ac:  35.60 fackACC: 15.7 legACC:100.0 | time: 0.1179s
+                                                                  | loss: 3.0798 Ac:  37.98 fackACC: 20.3 legACC: 50.0 | time: 0.0669s
+Epoch: 0271 | loss: 0.0118 | loss: 3.2592 Ac:  35.50 fackACC: 14.9 legACC:100.0 | time: 0.1178s
+                                                                  | loss: 3.0833 Ac:  38.00 fackACC: 19.6 legACC: 50.0 | time: 0.0671s
+Epoch: 0272 | loss: 0.0157 | loss: 3.2599 Ac:  35.50 fackACC: 15.4 legACC:100.0 | time: 0.1173s
+                                                                  | loss: 3.0844 Ac:  38.08 fackACC: 19.1 legACC: 50.0 | time: 0.0669s
+Epoch: 0273 | loss: 0.0111 | loss: 3.2590 Ac:  35.40 fackACC: 15.4 legACC:100.0 | time: 0.1192s
+                                                                  | loss: 3.0839 Ac:  38.10 fackACC: 19.0 legACC: 50.0 | time: 0.0669s
+Epoch: 0274 | loss: 0.0101 | loss: 3.2583 Ac:  35.50 fackACC: 15.2 legACC:100.0 | time: 0.1192s
+                                                                  | loss: 3.0835 Ac:  38.03 fackACC: 18.8 legACC: 50.0 | time: 0.0672s
+Epoch: 0275 | loss: 0.0118 | loss: 3.2569 Ac:  35.50 fackACC: 14.9 legACC:100.0 | time: 0.1193s
+                                                                  | loss: 3.0823 Ac:  38.10 fackACC: 18.8 legACC: 50.0 | time: 0.0671s
+Epoch: 0276 | loss: 0.0097 | loss: 3.2554 Ac:  35.60 fackACC: 15.0 legACC:100.0 | time: 0.1178s
+                                                                  | loss: 3.0808 Ac:  38.10 fackACC: 18.9 legACC: 50.0 | time: 0.0674s
+Epoch: 0277 | loss: 0.0171 | loss: 3.2553 Ac:  35.60 fackACC: 15.1 legACC:100.0 | time: 0.1176s
+                                                                  | loss: 3.0809 Ac:  38.18 fackACC: 19.0 legACC: 50.0 | time: 0.0670s
+Epoch: 0278 | loss: 0.0086 | loss: 3.2576 Ac:  35.50 fackACC: 15.3 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 3.0830 Ac:  38.13 fackACC: 19.0 legACC: 50.0 | time: 0.0671s
+Epoch: 0279 | loss: 0.0160 | loss: 3.2563 Ac:  35.60 fackACC: 15.3 legACC: 50.0 | time: 0.1208s
+                                                                  | loss: 3.0818 Ac:  38.15 fackACC: 19.4 legACC: 50.0 | time: 0.0671s
+Epoch: 0280 | loss: 0.0080 | loss: 3.2549 Ac:  35.80 fackACC: 15.5 legACC: 50.0 | time: 0.1195s
+                                                                  | loss: 3.0805 Ac:  38.20 fackACC: 19.7 legACC: 50.0 | time: 0.0669s
+Epoch: 0281 | loss: 0.0117 | loss: 3.2528 Ac:  36.00 fackACC: 15.6 legACC: 50.0 | time: 0.1177s
+                                                                  | loss: 3.0786 Ac:  38.23 fackACC: 19.6 legACC: 50.0 | time: 0.0673s
+Epoch: 0282 | loss: 0.0145 | loss: 3.2493 Ac:  36.30 fackACC: 15.5 legACC: 50.0 | time: 0.1182s
+                                                                  | loss: 3.0751 Ac:  38.25 fackACC: 19.3 legACC: 50.0 | time: 0.0671s
+Epoch: 0283 | loss: 0.0086 | loss: 3.2448 Ac:  36.30 fackACC: 15.5 legACC: 50.0 | time: 0.1193s
+                                                                  | loss: 3.0705 Ac:  38.33 fackACC: 19.2 legACC: 50.0 | time: 0.0670s
+Epoch: 0284 | loss: 0.0128 | loss: 3.2413 Ac:  36.30 fackACC: 15.7 legACC: 50.0 | time: 0.1203s
+                                                                  | loss: 3.0666 Ac:  38.35 fackACC: 19.4 legACC: 50.0 | time: 0.0669s
+Epoch: 0285 | loss: 0.0169 | loss: 3.2361 Ac:  36.50 fackACC: 15.9 legACC: 66.7 | time: 0.1204s
+                                                                  | loss: 3.0612 Ac:  38.42 fackACC: 19.8 legACC: 50.0 | time: 0.0671s
+Epoch: 0286 | loss: 0.0084 | loss: 3.2323 Ac:  36.50 fackACC: 16.1 legACC: 66.7 | time: 0.1175s
+                                                                  | loss: 3.0571 Ac:  38.42 fackACC: 20.1 legACC: 50.0 | time: 0.0669s
+Epoch: 0287 | loss: 0.0088 | loss: 3.2294 Ac:  36.90 fackACC: 17.0 legACC: 66.7 | time: 0.1175s
+                                                                  | loss: 3.0539 Ac:  38.42 fackACC: 20.8 legACC: 50.0 | time: 0.0672s
+Epoch: 0288 | loss: 0.0155 | loss: 3.2271 Ac:  36.90 fackACC: 17.4 legACC: 66.7 | time: 0.1180s
+                                                                  | loss: 3.0514 Ac:  38.38 fackACC: 21.0 legACC: 50.0 | time: 0.0670s
+Epoch: 0289 | loss: 0.0077 | loss: 3.2254 Ac:  36.90 fackACC: 17.4 legACC: 66.7 | time: 0.1175s
+                                                                  | loss: 3.0496 Ac:  38.37 fackACC: 21.3 legACC: 50.0 | time: 0.0671s
+Epoch: 0290 | loss: 0.0062 | loss: 3.2259 Ac:  37.00 fackACC: 17.5 legACC: 66.7 | time: 0.1218s
+                                                                  | loss: 3.0497 Ac:  38.28 fackACC: 21.3 legACC: 50.0 | time: 0.0671s
+Epoch: 0291 | loss: 0.0151 | loss: 3.2296 Ac:  36.80 fackACC: 18.5 legACC: 66.7 | time: 0.1176s
+                                                                  | loss: 3.0525 Ac:  38.10 fackACC: 22.2 legACC: 50.0 | time: 0.0670s
+Epoch: 0292 | loss: 0.0094 | loss: 3.2336 Ac:  36.70 fackACC: 18.8 legACC: 66.7 | time: 0.1179s
+                                                                  | loss: 3.0560 Ac:  37.96 fackACC: 23.3 legACC: 60.0 | time: 0.0672s
+Epoch: 0293 | loss: 0.0089 | loss: 3.2360 Ac:  36.40 fackACC: 18.3 legACC: 66.7 | time: 0.1178s
+                                                                  | loss: 3.0580 Ac:  37.81 fackACC: 22.7 legACC: 60.0 | time: 0.0671s
+Epoch: 0294 | loss: 0.0062 | loss: 3.2377 Ac:  36.40 fackACC: 18.2 legACC: 66.7 | time: 0.1176s
+                                                                  | loss: 3.0592 Ac:  37.78 fackACC: 22.1 legACC: 60.0 | time: 0.0670s
+Epoch: 0295 | loss: 0.0198 | loss: 3.2369 Ac:  36.20 fackACC: 17.9 legACC: 50.0 | time: 0.1220s
+                                                                  | loss: 3.0582 Ac:  37.76 fackACC: 21.8 legACC: 60.0 | time: 0.0671s
+Epoch: 0296 | loss: 0.0095 | loss: 3.2373 Ac:  36.30 fackACC: 17.8 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0585 Ac:  37.76 fackACC: 21.3 legACC: 60.0 | time: 0.0669s
+Epoch: 0297 | loss: 0.0142 | loss: 3.2394 Ac:  36.10 fackACC: 17.2 legACC: 50.0 | time: 0.1176s
+                                                                  | loss: 3.0604 Ac:  37.73 fackACC: 20.4 legACC: 60.0 | time: 0.0670s
+Epoch: 0298 | loss: 0.0070 | loss: 3.2414 Ac:  36.00 fackACC: 16.6 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 3.0622 Ac:  37.69 fackACC: 20.1 legACC: 60.0 | time: 0.0669s
+Epoch: 0299 | loss: 0.0090 | loss: 3.2436 Ac:  35.90 fackACC: 16.3 legACC: 50.0 | time: 0.1178s
+                                                                  | loss: 3.0643 Ac:  37.69 fackACC: 19.8 legACC: 66.7 | time: 0.0674s
+Epoch: 0300 | loss: 0.0080 | loss: 3.2461 Ac:  35.70 fackACC: 15.9 legACC: 50.0 | time: 0.1179s
+                                                                  | loss: 3.0662 Ac:  37.66 fackACC: 19.2 legACC: 66.7 | time: 0.0671s
+Optimization Finished!
+Total time elapsed: 180.5934s
+The best result is: ACC: 41.3805 F1: 66.6667, where epoch is 43.64089775561097
+
+
+
+
+0:	vali:  41.20000	test:  ACC: 41.3805 Trueacc: 66.6667 , fakeAcc:43.6409, epoch=49

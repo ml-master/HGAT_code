@@ -1,0 +1,29 @@
+Loading tagmynews dataset...
+Loading text content...
+../data/tagmynews/
+tagmynews
+text
+label matrix shape: torch.Size([32549, 7])
+done.
+Loading topic content...
+../data/tagmynews/
+tagmynews
+topic
+done.
+Loading entity content...
+../data/tagmynews/
+tagmynews
+entity
+done.
+Building graph...
+Num of edges: 2055758
+train, vali, test:  140 1000 31409
+Transfer to be transductive.
+
+
+No. 1 test.
+
+30
+30
+[torch.Size([512, 9]), torch.Size([9]), torch.Size([512]), torch.Size([6459, 512]), torch.Size([6473, 512]), torch.Size([6747, 512]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 9]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 9]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 9]), torch.Size([50])]
+Epoch: 0001
