@@ -101,7 +101,14 @@ type_have_label = node_type
 See the codes for more details.
 
 # Experiment result
-在原文三个数据集上面的结果
+在原文三个数据集上面的结果：
+
 ![image](https://github.com/ml-master/HGAT_code/assets/169741402/90422c63-40b5-4fb3-821f-d2ee7d139e88)
 
+在两个新数据集上面的实验结果：
 
+![image](https://github.com/ml-master/HGAT_code/assets/169741402/691287db-e8e9-47ca-849d-5e2b573dc974)
+
+消融实验的结果：
+
+![image](https://github.com/ml-master/HGAT_code/assets/169741402/6315d3bb-ed39-4d8a-8ac8-609a2e6ae868)
