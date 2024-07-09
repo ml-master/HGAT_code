@@ -100,32 +100,8 @@ type_have_label = node_type
 
 See the codes for more details.
 
+# Experiment result
+在原文三个数据集上面的结果
+![image](https://github.com/ml-master/HGAT_code/assets/169741402/90422c63-40b5-4fb3-821f-d2ee7d139e88)
 
 
-# Citation
-
-If you make advantage of the HGAT model in your research, please cite the following in your manuscript:
-
-```
-@article{yang2021hgat,
-  author = {Yang, Tianchi and Hu, Linmei and Shi, Chuan and Ji, Houye and Li, Xiaoli and Nie, Liqiang},
-  title = {HGAT: Heterogeneous Graph Attention Networks for Semi-Supervised Short Text Classification},
-  year = {2021},
-  publisher = {Association for Computing Machinery},
-  volume = {39},
-  number = {3},
-  doi = {10.1145/3450352},
-  journal = {ACM Transactions on Information Systems},
-  month = may,
-  articleno = {32},
-  numpages = {29},
-}
-
-@inproceedings{linmei2019heterogeneous,
-  title={Heterogeneous graph attention networks for semi-supervised short text classification},
-  author={Linmei, Hu and Yang, Tianchi and Shi, Chuan and Ji, Houye and Li, Xiaoli},
-  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
-  pages={4823--4832},
-  year={2019}
-}
-```
